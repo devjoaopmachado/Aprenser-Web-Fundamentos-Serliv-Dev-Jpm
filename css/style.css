@@ -141,8 +141,8 @@ span {
 
 .card {
     width: 40rem;
-    border: 1px solid blue;
-
+    display: flex;
+    flex-direction: column; 
 }
 
 .card img {
@@ -156,11 +156,7 @@ span {
 
 .conteiner-card {
     display: flex;
-    justify-content: space-between;
-    border: 1px solid red;
-
-
-
+    justify-content: space-between;   
 }
 
 .content-card_text {
@@ -168,14 +164,9 @@ span {
     border: 1px solid rgb(155, 155, 155);
     border-top: 0;
     line-height: 1.5;
-    letter-spacing: .1rem;
-    margin-bottom: 0;
-    border: 1px solid green;
+    letter-spacing: .15rem;
     padding: 1.6rem;
-    height: 20rem;
-
-
-
+    flex: 1;
 }
 
 .content-card_text p {
@@ -249,23 +240,19 @@ span {
     font-size: 1.8rem;
     margin: 4rem 0;
     text-align: right;
-
 }
 
 .conteiner-footer_msocial {
     width: 45%;
     display: flex;
-
     text-align: left;
     margin: 4rem 0;
-
 }
 
 .container-contatos_ext {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
-
 }
 
 .menu-footer {
